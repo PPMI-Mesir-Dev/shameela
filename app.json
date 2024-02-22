@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Shameela",
+    "slug": "shameela",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconfix-65d6c4fe6ee60/android/mipmap-hdpi/ic_launcher_round.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconfix-65d6c4fe6ee60/android/mipmap-hdpi/ic_launcher_foreground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.abdikarya.shameela"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "deep-linking",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c6d70029-4134-4e7e-98e8-c352e6eb4c3f"
+      }
+    }
+  }
+}
